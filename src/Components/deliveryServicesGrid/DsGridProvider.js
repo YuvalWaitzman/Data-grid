@@ -19,7 +19,7 @@ const Error = styled.h1`
 const DsGridProvider = () => {
   const [rowsData, setRowsData] = useState([]);
   const { data, isLoading, isError } = useFetch(
-    "https://exam1-6a572-default-rtdb.firebaseio.com/.json"
+    "https://githubdatagrid-default-rtdb.firebaseio.com/.json"
   );
 
   useEffect(() => {
