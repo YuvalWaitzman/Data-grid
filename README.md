@@ -17,7 +17,7 @@
   * Ant Design library
   
   ## Workflow
-  - The user clicks on the ling of the UI and been directed to the app.
+  - The user clicks on the link of the UI and been directed to the app.
   - A GET request is sent to the api (AWS) - json file is extracted in a promise based asynchronous call.
   - The grid is displayed on the screen in  it's base state, all the records are presented.
   - The user can filter, sort, change the order of columns and choose the relevant data he want to see on the
